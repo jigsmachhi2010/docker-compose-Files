@@ -1,0 +1,16 @@
+version: "2"
+
+  percona:
+    image: percona/pmm-server:latest
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    environment:
+      VIRTUAL_HOST: ofi0syscyyxtplei.karmanye.in
+      LETSENCRYPT_HOST: ofi0syscyyxtplei.karmanye.in
+      LETSENCRYPT_EMAIL: jignesh.workspace@gmail.com
+    
+     
+networks:
+  default:
+    external:
+      name: nginx-proxy
