@@ -5,9 +5,9 @@ version: "2"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
     environment:
-      VIRTUAL_HOST: ofi0syscyyxtplei.karmanye.in
-      LETSENCRYPT_HOST: ofi0syscyyxtplei.karmanye.in
-      LETSENCRYPT_EMAIL: jignesh.workspace@gmail.com
+      VIRTUAL_HOST: 
+      LETSENCRYPT_HOST: 
+      LETSENCRYPT_EMAIL: 
     
      
 networks:
