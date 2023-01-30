@@ -3,7 +3,7 @@ services:
   web:
     image: 'gitlab/gitlab-ee:latest'
     restart: always
-    hostname: wme6fkjry3qkh38t.karmanye.in    
+    hostname: 
 #    ports:
 #      - '8001:80'
 #      - '443:443'
@@ -17,9 +17,9 @@ services:
    
       
     environment:
-      VIRTUAL_HOST: wme6fkjry3qkh38t.karmanye.in
-      LETSENCRYPT_HOST: wme6fkjry3qkh38t.karmanye.in
-      LETSENCRYPT_EMAIL: jignesh.workspace@gmail.com
+      VIRTUAL_HOST: 
+      LETSENCRYPT_HOST: 
+      LETSENCRYPT_EMAIL: 
       
     
 networks:
